@@ -1,0 +1,8 @@
+command to install pipenv
+sudo -H pip install -U pipenv
+
+command to create virtual environment for project
+pipenv install django==2.2 --python 3.7
+
+command to activate virtual environment
+pipenv shell
